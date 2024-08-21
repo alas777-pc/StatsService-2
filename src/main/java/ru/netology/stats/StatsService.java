@@ -28,7 +28,7 @@ public class StatsService {
         return maxMonth + 1;
     }
 
-    public long minSumMonth(long[] sales) { //ищет номер месяца с минимальными продажами
+    public int minSumMonth(long[] sales) { //ищет номер месяца с минимальными продажами
         int minMonth = 0;
 
         for (int i = 0; i < sales.length; i++) {
